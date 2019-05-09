@@ -4,6 +4,8 @@
 # Verify that weather is a data.frame
 class(weather)
 
+is.data.frame(weather)
+
 # Check the dimensions
 dim(weather)
 
