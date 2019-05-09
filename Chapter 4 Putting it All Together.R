@@ -96,7 +96,7 @@ as.numeric(weather5$PrecipitationIn)
 ## The dplyr package is already loaded
 
 # Replace T with 0 (T = trace)
-weather5$PrecipitationIn <- str_replace(weather5$PrecipitationIn, "T", 0)
+weather5$PrecipitationIn <- str_replace(weather5$PrecipitationIn, "T", "0)
 
 # Convert characters to numerics
 weather6 <- mutate_each(weather5, funs(as.numeric), CloudCover:WindDirDegrees)
