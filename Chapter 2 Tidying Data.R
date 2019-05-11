@@ -62,6 +62,8 @@ head(census_long2, 20)
 ###Multiple Values are Stored in one column
 ## tidyr is already loaded for you
 
+
+
 # View the head of census_long3
 # census_long3 in Data Camp's workspace
 head(census_long3)
